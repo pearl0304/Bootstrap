@@ -1,0 +1,93 @@
+.container-fluid{padding: 0;}
+.navbar{
+    height: 90px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.navbar-toggle{
+    margin-top: 30px;
+}
+.navbar-brand{
+    height: 88px;
+    padding: 0%;
+}
+.navbar-brand img{
+    height: 100%;
+}
+body{
+    margin-top: 90px;
+}
+.gab{
+    margin: 50px;
+}
+.item img{
+    width: 100%;
+}
+.notice h4{
+    text-align: center;
+    font-weight: bold;
+    color: chocolate;
+}
+.table{
+    cursor: pointer;
+    border-collapse: collapse;
+}
+.table tr:not(:first-child):hover {
+    text-decoration: underline;
+    color: chocolate;
+}
+.table tr th{
+    text-align: center;
+    font-weight: bold;
+}
+.partner{
+    text-align: center;
+}
+
+.partner h4{
+    text-align: center;
+    font-weight: bold;
+    color: chocolate; 
+}
+
+.partner img{
+    padding-top: 5px;
+    margin-left: 50px;
+}
+.thumbnail{
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.thumbnail .btn{
+    margin-top: 0;
+    padding: 7px;
+    background-color: chocolate;
+    color: #fff;
+    border: none;
+    border-radius: 10px;  
+}
+.thumbnail .btn:hover{
+    opacity: 0.7;
+}
+footer{
+    height: 180px;
+    background-color: chocolate;
+    color: #fff;
+}
+
+.a{
+    margin-top: 5px;
+}
+
+
+
+
+
+
+@media (max-width:767px){
+    .thumbnail{
+        width: 100px;}
+    }
