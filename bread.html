@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>부트스트랩 101 템플릿</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="bread.css" rel="stylesheet"> 
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+        <!--navbar start-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                 <a class="navbar-brand" href="#">
+                     <img src="bimages/logo/LOGO.jpg">
+                </a>
+            </div>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">DD소개</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">빵만들기<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">초보과정</a></li>
+                    <li><a href="#">중급과정</a></li>
+                    <li><a href="#">고급과정</a></li>
+                    </ul>
+                    </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">커뮤니티<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Q&A</a></li>
+                    <li><a href="#">자유게시판</a></li>
+                    <li><a href="#">프랜차이즈 문의</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!--navbar end-->
+        <!--carosel start-->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="bimages/slide/images(1).jpg" class="img-responsive">
+              </div>
+              <div class="item">
+                <img src="bimages/slide/images(2).jpg"class="img-responsive">
+              </div>
+              <div class="item">
+                <img src="bimages/slide/images(3).jpg"class="img-responsive">
+              </div>
+              <div class="item">
+                <img src="bimages/slide/images(4).jpg"class="img-responsive">
+              </div>
+              <div class="item">
+                <img src="bimages/slide/images(5).jpg"class="img-responsive">
+              </div>
+
+            </div>
+          
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--carosel end-->
+        <div class="gab"></div>
+        <!--notice partner start-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 notice">
+                    <h4>공지사항</h4>
+                    <!--table start-->
+                    <table class="table table-striped">
+                        <tr>
+                            <th>제목</th>
+                            <th>날짜</th>
+                        </tr>
+                        <tr>
+                            <td>제1회 DD베이커리 워크숍에 초대합니다(서울권)</td>
+                            <td>2019-01-22</td>
+                        </tr>
+                        <tr>
+                            <td>올림픽 공원 카페 초보 여성 창업을 추천 받습니다</td>
+                            <td>2019-01-22</td>
+                        </tr>
+                        <tr>
+                            <td>맛과 영양, 환경 문제까지 생각하는 베이커리입니다</td>
+                            <td>2019-01-22</td>
+                        </tr>
+                        <tr>
+                            <td>고품질 크림으로 만든 디저트로 달콤하게 겨울나기</td>
+                            <td>2019-01-22</td>
+                        </tr>
+                        <tr>
+                            <td>온가족이 함께 즐기는 베이킹 체험교실</td>
+                            <td>2019-01-22</td>
+                        </tr>
+                    </table>
+                    <!--table end-->
+                </div>
+                <div class="col-md-6 partner">
+                    <h4>Partner</h4>
+                    <a href="bimages/partner/PARTNER.jpg" class="fancybox">
+                        <img src="bimages/partner/PARTNER.jpg" class="img-responsive">
+                        <img src="bimages/partner/PARTNER_UP.png" class="img-responsive">
+                    </a>   
+                </div>
+            </div>
+        </div>
+        <!--notice partner end-->
+        <div class="gab"></div>
+        <!--icons start-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="thumbnail">
+                        <img src="bimages/icons/icon1.png" class="img-responsive">
+                        <div class="btn">고수의 레시피</div>
+                    </div>
+                    <div class="thumbnail">
+                        <img src="bimages/icons/icon2.png" class="img-responsive">
+                        <div class="btn">새소식</div>
+                    </div>
+                    <div class="thumbnail">
+                        <img src="bimages/icons/icon3.png" class="img-responsive">
+                        <div class="btn">식품안전관리</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--icons end-->
+
+    </div><!--container-fluid end-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 a col-xs-4"><p class="a">법적고지</p></div>
+                <div class="col-md-3 a col-xs-4"><p class="a">개인정보취급방침</p></div>
+                <div class="col-md-3 a col-xs-4"><p class="a">개인정보처리방침</p></div>
+                <div class="col-md-3 a">
+                    <p class="a">
+                        사업자 번호 : 222-2222 <br> 
+                        상호명 : (주)디디베이커리 <br>
+                        대표자 : 김창수<br>
+                        개인정보관리책임자 : 윤진서<br>
+                        상담전화 : 1599-0900<br>
+                        사업장 주소 : 서울특별시 서초구 논현동 222-22번지<br>
+                        E-mail : test@test.co.kr 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   
+    <script src="js/jquery.fancybox.js"></script>
+    <script>
+        $(".carousel").carousel({
+            interval:2000
+        });
+        $(document).ready(function(){
+            $(".fancybox").fancybox();
+        })
+            
+        
+    </script>
+  </body>
+</html>
