@@ -1,0 +1,55 @@
+.container-fluid{padding: 0;}
+.navbar{
+    height: 90px;
+    background-color: #fff;
+    font-size: 1.2em;
+    border: none;
+    border-bottom: 1px solid #aaa;
+}
+.navbar-toggle{
+    margin-top: 30px;
+}
+body{padding-top:90px;}
+
+.icons{
+    padding: 20px; 
+    font-size: 30px;
+    background-color: orange;
+    border-radius: 100%; 
+    border: 5px solid orange;
+    text-align: center;
+    margin-right: 15px;
+    transition: 0.4s;
+    float: left;
+}
+.icons:hover{
+    background-color: #18709c;
+}
+.icontxt h4{
+    color:#18709c;
+    font-weight: bold;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+header small{color: #fff;}
+header p{color: #c0c0c0;}
+.content1{
+    background: url("imgs/slide1_bg.jpg") no-repeat fixed;
+    background-size: cover;
+
+}
+
+.book1,.book2,.book3{float: left;}
+.book2,.book3{margin-left: -100px;}
+
+footer{
+    color:#fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#about,#portfolio,#contact{padding-top:85px ;}
